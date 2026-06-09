@@ -1,4 +1,4 @@
-# Portfolio DAM
+# Portfolio DAM / BIG DATA & INTELIGENCIA ARTIFICIAL / CLOUD COMPUTING
 
 Portfolio de proyectos y ejercicios realizados durante mi formación en Desarrollo de Aplicaciones Multiplataforma.
 Especializacion en IA y Big Data
