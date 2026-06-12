@@ -1,10 +1,16 @@
-## primero_dam
-**Portfolio Desarrollo de Aplicaciones Multiplataforma / Big Data e Inteligencia Artificial / Cloud Computing**
+**CV completo y Portfolio** con los trabajos y actividades de:
 
-### Sobre mí
-Soy estudiante que ha finalizado el 1er curso de Técnico DAM en la Universidad Alfonso X El Sabio, con formación complementaria en **Inteligencia Artificial**, **Big Data** y **Cloud Computing**. Actualmente estoy en búsqueda de prácticas donde pueda aplicar mis conocimientos en desarrollo de software, bases de datos y transformación digital.
+- **1º de Técnico Desarrollo de Aplicaciones Multiplataforma** por la Universidad Alfonso X El Sabio **(UAX)**
+- **1º Big Data e IA / 1º Cloud Computing** por la Universidad Alfonso X El Sabio **(UAX)** a través de la plataforma **XTART**
 
-### Acceso directo
+**Mis Datos:**
+- Francisca Selma Catalá
+- Gestión y Administración Pública.
+- Especialización en Desafios del Nuevo Orden Global.
+- Actualmente cursando el Grado Superior de Técnico DAM en la UAX, habiendo finalizado el primer curso con nota media 9.87.
+- Cursando formación complementaria en Inteligencia Artificial, Big Data y Cloud Computing.
+
+### Acceso directo, cliclando, a:
 - [Currículum Vitae](./Curriculum%20Vitae)
 - [01 - Web_Proyecto_Intermodular](./01%20-%20Web_Proyecto_Intermodular)
 - [02 - Web_Reto_Lenguaje_Marcas](./02%20-%20Web_Reto_Lenguaje_Marcas)
