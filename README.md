@@ -2,7 +2,7 @@
 **Portfolio Desarrollo de Aplicaciones Multiplataforma / Big Data e Inteligencia Artificial / Cloud Computing**
 
 ### Sobre mí
-Soy estudiante que ha finalizado el 1er curso de ** Técnico DAM ** en la Universidad Alfonso X El Sabio, con formación complementaria en **Inteligencia Artificial**, **Big Data** y **Cloud Computing**. Actualmente estoy en búsqueda de prácticas donde pueda aplicar mis conocimientos en desarrollo de software, bases de datos y transformación digital.
+Soy estudiante que ha finalizado el 1er curso de Técnico DAM en la Universidad Alfonso X El Sabio, con formación complementaria en **Inteligencia Artificial**, **Big Data** y **Cloud Computing**. Actualmente estoy en búsqueda de prácticas donde pueda aplicar mis conocimientos en desarrollo de software, bases de datos y transformación digital.
 
 ### Acceso directo
 - [Currículum Vitae](./Curriculum%20Vitae)
