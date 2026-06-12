@@ -1,0 +1,60 @@
+-- BLOQUE 06 - Medidas DAX recomendadas para Power BI
+-- Tabla principal: kpis_mensuales_por_oficina_2025
+
+Total Expedientes Recibidos =
+SUM('kpis_mensuales_por_oficina_2025'[expedientes_recibidos])
+
+Total Expedientes Resueltos =
+SUM('kpis_mensuales_por_oficina_2025'[expedientes_resueltos])
+
+Documentacion Pendiente =
+SUM('kpis_mensuales_por_oficina_2025'[documentacion_pendiente])
+
+Incidencias Abiertas =
+SUM('kpis_mensuales_por_oficina_2025'[incidencias_abiertas])
+
+Tasa Resolucion % =
+DIVIDE([Total Expedientes Resueltos], [Total Expedientes Recibidos]) * 100
+
+Ratio Incidencias % =
+DIVIDE([Incidencias Abiertas], [Total Expedientes Recibidos]) * 100
+
+Espera Media Min =
+AVERAGE('kpis_mensuales_por_oficina_2025'[tiempo_medio_espera_min])
+
+Satisfaccion Media =
+AVERAGE('kpis_mensuales_por_oficina_2025'[satisfaccion_media])
+
+Oficinas Analizadas =
+DISTINCTCOUNT('kpis_mensuales_por_oficina_2025'[oficina_id])
+
+Provincias Analizadas =
+DISTINCTCOUNT('kpis_mensuales_por_oficina_2025'[provincia])
+
+-- Medidas opcionales si se importa oficinas_empleo_trusted_2025
+
+Meses Riesgo Alto =
+CALCULATE(
+    COUNTROWS('oficinas_empleo_trusted_2025'),
+    'oficinas_empleo_trusted_2025'[riesgo_operativo] = "alto"
+)
+
+Meses Riesgo Medio =
+CALCULATE(
+    COUNTROWS('oficinas_empleo_trusted_2025'),
+    'oficinas_empleo_trusted_2025'[riesgo_operativo] = "medio"
+)
+
+Meses Riesgo Bajo =
+CALCULATE(
+    COUNTROWS('oficinas_empleo_trusted_2025'),
+    'oficinas_empleo_trusted_2025'[riesgo_operativo] = "bajo"
+)
+
+-- Medida auxiliar para tarjeta narrativa
+
+Texto Resumen Ejecutivo =
+"En 2025 se gestionaron " & FORMAT([Total Expedientes Recibidos], "#,0") &
+" expedientes, con una tasa de resolucion del " & FORMAT([Tasa Resolucion %], "0.00") &
+"%, una espera media de " & FORMAT([Espera Media Min], "0.0") &
+" minutos y una satisfaccion media de " & FORMAT([Satisfaccion Media], "0.00") & "."

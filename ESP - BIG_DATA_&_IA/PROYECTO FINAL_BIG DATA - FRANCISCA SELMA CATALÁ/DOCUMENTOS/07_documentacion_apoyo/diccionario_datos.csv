@@ -1,0 +1,55 @@
+tabla,campo,tipo_referencia_local,descripcion
+oficinas_empleo_trusted_2025,registro_id,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,mes,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,oficina_id,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,oficina,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,provincia,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,comunidad_autonoma,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,zona_operativa,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,canal_principal,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,prioridad_media_expedientes,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,expedientes_recibidos,int64,Métrica operativa mensual limpia y no negativa.
+oficinas_empleo_trusted_2025,expedientes_resueltos,int64,Métrica operativa mensual limpia y no negativa.
+oficinas_empleo_trusted_2025,documentacion_pendiente,int64,Métrica operativa mensual limpia y no negativa.
+oficinas_empleo_trusted_2025,incidencias_abiertas,int64,Métrica operativa mensual limpia y no negativa.
+oficinas_empleo_trusted_2025,tiempo_medio_espera_min,float64,Campo analítico generado o conservado para explotación.
+oficinas_empleo_trusted_2025,nivel_servicio,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+oficinas_empleo_trusted_2025,satisfaccion_media,float64,Campo analítico generado o conservado para explotación.
+oficinas_empleo_trusted_2025,tasa_resolucion_pct,float64,Indicador porcentual calculado en la capa de procesamiento.
+oficinas_empleo_trusted_2025,ratio_incidencias_pct,float64,Indicador porcentual calculado en la capa de procesamiento.
+oficinas_empleo_trusted_2025,riesgo_operativo,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_oficina_2025,mes,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_oficina_2025,oficina_id,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_oficina_2025,oficina,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_oficina_2025,provincia,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_oficina_2025,comunidad_autonoma,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_oficina_2025,zona_operativa,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_oficina_2025,expedientes_recibidos,int64,Métrica operativa mensual limpia y no negativa.
+kpis_mensuales_por_oficina_2025,expedientes_resueltos,int64,Métrica operativa mensual limpia y no negativa.
+kpis_mensuales_por_oficina_2025,documentacion_pendiente,int64,Métrica operativa mensual limpia y no negativa.
+kpis_mensuales_por_oficina_2025,incidencias_abiertas,int64,Métrica operativa mensual limpia y no negativa.
+kpis_mensuales_por_oficina_2025,tiempo_medio_espera_min,float64,Campo analítico generado o conservado para explotación.
+kpis_mensuales_por_oficina_2025,satisfaccion_media,float64,Campo analítico generado o conservado para explotación.
+kpis_mensuales_por_oficina_2025,tasa_resolucion_pct,float64,Indicador porcentual calculado en la capa de procesamiento.
+kpis_mensuales_por_oficina_2025,ratio_incidencias_pct,float64,Indicador porcentual calculado en la capa de procesamiento.
+kpis_mensuales_por_provincia_2025,mes,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_provincia_2025,provincia,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_provincia_2025,comunidad_autonoma,object,Campo descriptivo o categórico usado para segmentación y trazabilidad.
+kpis_mensuales_por_provincia_2025,expedientes_recibidos,int64,Métrica operativa mensual limpia y no negativa.
+kpis_mensuales_por_provincia_2025,expedientes_resueltos,int64,Métrica operativa mensual limpia y no negativa.
+kpis_mensuales_por_provincia_2025,documentacion_pendiente,int64,Métrica operativa mensual limpia y no negativa.
+kpis_mensuales_por_provincia_2025,incidencias_abiertas,int64,Métrica operativa mensual limpia y no negativa.
+kpis_mensuales_por_provincia_2025,tiempo_medio_espera_min,float64,Campo analítico generado o conservado para explotación.
+kpis_mensuales_por_provincia_2025,satisfaccion_media,float64,Campo analítico generado o conservado para explotación.
+kpis_mensuales_por_provincia_2025,tasa_resolucion_pct,float64,Indicador porcentual calculado en la capa de procesamiento.
+kpis_mensuales_por_provincia_2025,ratio_incidencias_pct,float64,Indicador porcentual calculado en la capa de procesamiento.
+resumen_ejecutivo_2025,anio,int64,Campo analítico generado o conservado para explotación.
+resumen_ejecutivo_2025,oficinas_analizadas,int64,Campo analítico generado o conservado para explotación.
+resumen_ejecutivo_2025,provincias_analizadas,int64,Campo analítico generado o conservado para explotación.
+resumen_ejecutivo_2025,expedientes_recibidos_total,int64,Métrica agregada anual para resumen ejecutivo.
+resumen_ejecutivo_2025,expedientes_resueltos_total,int64,Métrica agregada anual para resumen ejecutivo.
+resumen_ejecutivo_2025,incidencias_abiertas_total,int64,Métrica agregada anual para resumen ejecutivo.
+resumen_ejecutivo_2025,documentacion_pendiente_total,int64,Métrica agregada anual para resumen ejecutivo.
+resumen_ejecutivo_2025,tasa_resolucion_global_pct,float64,Indicador porcentual calculado en la capa de procesamiento.
+resumen_ejecutivo_2025,espera_media_global_min,float64,Campo analítico generado o conservado para explotación.
+resumen_ejecutivo_2025,satisfaccion_media_global,float64,Campo analítico generado o conservado para explotación.

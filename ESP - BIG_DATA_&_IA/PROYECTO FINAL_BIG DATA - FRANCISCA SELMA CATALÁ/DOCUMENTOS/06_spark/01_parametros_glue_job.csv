@@ -1,0 +1,8 @@
+parametro,valor,obligatorio,descripcion
+--RAW_PATH,s3://TU_BUCKET/raw/oficinas/oficinas_empleo_operativo_raw_2025.csv,SI,CSV bruto de oficinas cargado en el Bloque 01
+--DIM_OFICINAS_PATH,s3://TU_BUCKET/raw/dimensiones/dim_oficinas/dim_oficinas_empleo.csv,SI,Dimensión maestra de oficinas
+--DIM_CALENDARIO_PATH,s3://TU_BUCKET/raw/dimensiones/dim_calendario/dim_calendario_2025.csv,SI,Dimensión temporal para resumen anual
+--TRUSTED_PATH,s3://TU_BUCKET/trusted/oficinas/,SI,Salida limpia y normalizada
+--ANALYTICS_OFICINA_PATH,s3://TU_BUCKET/analytics/kpis_oficina/,SI,KPIs mensuales por oficina
+--ANALYTICS_PROVINCIA_PATH,s3://TU_BUCKET/analytics/kpis_provincia/,SI,KPIs mensuales por provincia
+--ANALYTICS_RESUMEN_PATH,s3://TU_BUCKET/analytics/resumen/,SI,Resumen ejecutivo anual

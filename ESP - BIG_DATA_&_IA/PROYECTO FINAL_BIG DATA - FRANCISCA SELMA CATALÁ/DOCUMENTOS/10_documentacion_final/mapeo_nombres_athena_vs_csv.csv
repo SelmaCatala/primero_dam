@@ -1,0 +1,6 @@
+capa,fichero_csv_canonico,tabla_athena_laboratorio,ruta_s3
+RAW,oficinas_empleo_operativo_raw_2025.csv,oficinas,raw/oficinas/
+TRUSTED,oficinas_empleo_trusted_2025.csv,trusted_oficinas,trusted/oficinas/
+ANALYTICS oficina,kpis_mensuales_por_oficina_2025.csv,analytics_kpis_oficina,analytics/kpis_oficina/
+ANALYTICS provincia,kpis_mensuales_por_provincia_2025.csv,analytics_kpis_provincia,analytics/kpis_provincia/
+ANALYTICS resumen,resumen_ejecutivo_2025.csv,analytics_resumen,analytics/resumen/

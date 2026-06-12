@@ -1,0 +1,19 @@
+metrica,valor_esperado,origen
+filas_trusted,96,trusted_oficinas
+filas_kpis_oficina,96,analytics_kpis_oficina
+filas_kpis_provincia,48,analytics_kpis_provincia
+filas_resumen,1,analytics_resumen
+oficinas_analizadas,8,analytics_resumen
+provincias_analizadas,4,analytics_resumen
+expedientes_recibidos_total,191319,analytics_resumen
+expedientes_resueltos_total,167286,analytics_resumen
+incidencias_abiertas_total,4759,analytics_resumen
+documentacion_pendiente_total,11512,analytics_resumen
+tasa_resolucion_global_pct,87.44,analytics_resumen
+espera_media_global_min,42.2,analytics_resumen
+satisfaccion_media_global,3.7,analytics_resumen
+duplicados_registro_id,0,validacion tecnica Athena
+nulos_campos_clave,0,validacion tecnica Athena
+metricas_negativas,0,validacion tecnica Athena
+satisfaccion_fuera_rango,0,validacion tecnica Athena
+resueltos_mayores_que_recibidos,0,validacion tecnica Athena

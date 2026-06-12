@@ -1,0 +1,8 @@
+elemento,ruta,filas_datos,columnas
+RAW oficinas,01_raw/oficinas_empleo_operativo_raw_2025.csv,97,16
+Dim oficinas,01_raw/dim_oficinas_empleo.csv,8,8
+Dim calendario,01_raw/dim_calendario_2025.csv,12,6
+TRUSTED oficinas,02_trusted/oficinas_empleo_trusted_2025.csv,96,19
+Analytics KPIs oficina,03_analytics/kpis_mensuales_por_oficina_2025.csv,96,14
+Analytics KPIs provincia,03_analytics/kpis_mensuales_por_provincia_2025.csv,48,11
+Analytics resumen ejecutivo,03_analytics/resumen_ejecutivo_2025.csv,1,10

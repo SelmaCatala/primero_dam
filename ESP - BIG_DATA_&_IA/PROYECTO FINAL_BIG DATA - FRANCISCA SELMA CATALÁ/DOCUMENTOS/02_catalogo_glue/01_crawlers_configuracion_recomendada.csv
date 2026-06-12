@@ -1,0 +1,4 @@
+orden,crawler_name,s3_target,database,tabla_recomendada_memoria,tabla_probable_si_glue_usa_nombre_carpeta,rol,frecuencia,motivo
+1,crawler_raw_oficinas,s3://TU_BUCKET/raw/oficinas/,proyecto_bigdata_oficinas,oficinas_empleo_raw_2025,oficinas o raw_oficinas,LabRole,On demand,Catalogar el dataset operativo bruto con errores intencionales
+2,crawler_dim_oficinas,s3://TU_BUCKET/raw/dimensiones/dim_oficinas/,proyecto_bigdata_oficinas,dim_oficinas_empleo,dim_oficinas,LabRole,On demand,Catalogar dimensión maestra de oficinas por esquema separado
+3,crawler_dim_calendario,s3://TU_BUCKET/raw/dimensiones/dim_calendario/,proyecto_bigdata_oficinas,dim_calendario_2025,dim_calendario,LabRole,On demand,Catalogar dimensión temporal por esquema separado

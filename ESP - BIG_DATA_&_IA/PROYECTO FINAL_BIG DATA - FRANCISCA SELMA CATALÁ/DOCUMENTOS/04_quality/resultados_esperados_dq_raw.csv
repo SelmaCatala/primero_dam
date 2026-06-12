@@ -1,0 +1,17 @@
+regla,tipo,resultado_esperado_en_raw,causa,accion_correctiva_bloque_03
+ColumnExists campos principales,Estructura,PASS,Las columnas existen en el CSV,Ninguna
+IsComplete registro_id,Completitud,PASS,No hay nulos en registro_id,Ninguna
+IsComplete provincia,Completitud,FAIL,Hay una provincia nula,Corregir con join a dim_oficinas
+IsComplete expedientes_recibidos,Completitud,FAIL,Hay un valor nulo,Imputar o corregir en Spark
+IsComplete tiempo_medio_espera_min,Completitud,FAIL,Hay un valor nulo,Imputar con media por oficina/global
+IsUnique registro_id,Unicidad,FAIL,Hay un duplicado intencional,Deduplicar por registro_id
+ColumnValues expedientes_recibidos >= 0,Validez,PASS,No hay negativos en recibidos,Revisar nulos aparte
+ColumnValues expedientes_resueltos >= 0,Validez,FAIL,Hay un valor negativo,Corregir a 0 o filtrar según criterio
+ColumnValues documentacion_pendiente >= 0,Validez,PASS,No hay negativos,Ninguna
+ColumnValues incidencias_abiertas >= 0,Validez,FAIL,Hay un valor negativo,Corregir a 0
+ColumnValues tiempo_medio_espera_min >= 0,Validez,PASS,No hay negativos; el nulo se controla aparte,Imputar nulo
+ColumnValues satisfaccion_media between 1 and 5,Rango,FAIL,Hay un valor 7.8,Acotar a 5 o corregir según regla de negocio
+ColumnValues nivel_servicio in alto/medio/bajo,Dominio,FAIL,Existe categoria excelente,Mapear a alto o marcar invalido
+ColumnValues canal_principal permitido,Dominio,PASS,Valores dentro de presencial online telefono,Ninguna
+RowCount > 90,Volumetria,PASS,Hay 97 filas,Ninguna
+expedientes_resueltos <= expedientes_recibidos,Consistencia,FAIL,Hay 8 casos con resueltos mayor que recibidos,Ajustar resueltos o marcar inconsistente

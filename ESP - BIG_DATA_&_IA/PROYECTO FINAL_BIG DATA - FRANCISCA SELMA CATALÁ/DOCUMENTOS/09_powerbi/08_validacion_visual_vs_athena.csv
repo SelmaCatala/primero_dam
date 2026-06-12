@@ -1,0 +1,10 @@
+metrica,valor_esperado_powerbi,origen_validacion
+Total Expedientes Recibidos,191319,resumen_ejecutivo_2025 / Athena
+Total Expedientes Resueltos,167286,resumen_ejecutivo_2025 / Athena
+Incidencias Abiertas,4759,resumen_ejecutivo_2025 / Athena
+Documentacion Pendiente,11512,resumen_ejecutivo_2025 / Athena
+Tasa Resolucion %,87.44,medida DAX vs resumen
+Espera Media Min,42.2,medida DAX vs resumen
+Satisfaccion Media,3.7,medida DAX vs resumen
+Oficinas Analizadas,8,DISTINCTCOUNT oficina_id
+Provincias Analizadas,4,DISTINCTCOUNT provincia

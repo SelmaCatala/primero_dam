@@ -1,0 +1,16 @@
+dataset,ruta_s3,regla_o_control,resultado_esperado,comentario
+trusted,s3://TU_BUCKET/trusted/oficinas/,RowCount,96,Número de filas esperado tras el Bloque 03; columnas=19
+analytics_oficina,s3://TU_BUCKET/analytics/kpis_oficina/,RowCount,96,Número de filas esperado tras el Bloque 03; columnas=14
+analytics_provincia,s3://TU_BUCKET/analytics/kpis_provincia/,RowCount,48,Número de filas esperado tras el Bloque 03; columnas=11
+resumen,s3://TU_BUCKET/analytics/resumen/,RowCount,1,Número de filas esperado tras el Bloque 03; columnas=10
+trusted,s3://TU_BUCKET/trusted/oficinas/,filas,96,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,columnas,19,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,duplicados_registro_id,0,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,nulos_clave,0,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,metricas_negativas,0,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,satisfaccion_fuera_1_5,0,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,nivel_servicio_invalido,0,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,canal_invalido,0,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,resueltos_mayor_recibidos,0,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,tasa_fuera_0_100,0,Control calculado sobre salida local del Bloque 03
+trusted,s3://TU_BUCKET/trusted/oficinas/,ratio_negativo,0,Control calculado sobre salida local del Bloque 03

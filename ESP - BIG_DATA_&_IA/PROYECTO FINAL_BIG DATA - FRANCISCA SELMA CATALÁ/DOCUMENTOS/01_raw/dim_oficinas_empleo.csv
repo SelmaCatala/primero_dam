@@ -1,0 +1,9 @@
+oficina_id,oficina,provincia,comunidad_autonoma,zona_operativa,tipo_oficina,capacidad_atencion_diaria,empleados_asignados
+OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,principal,269,32
+OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,secundaria,317,17
+OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,secundaria,231,15
+OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,principal,214,35
+OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,secundaria,256,14
+OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,principal,362,42
+OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,secundaria,159,35
+OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,principal,342,17

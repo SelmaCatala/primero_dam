@@ -1,0 +1,10 @@
+requisito,servicio_o_entregable,implementacion_en_proyecto,bloque,estado
+Caso de uso documentado,Memoria técnica,Análisis operativo de oficinas de empleo,Bloque 07 + memoria,Cumple
+Ruta elegida,Ruta B Batch,Datos mensuales e históricos,Bloques 01-07,Cumple
+S3 obligatorio,Amazon S3,raw/trusted/analytics/dq-results/athena-results/scripts,Bloque 01,Cumple
+Glue Data Catalog obligatorio,AWS Glue Data Catalog,Base proyecto_bigdata_oficinas y crawlers,Bloques 02 y 04,Cumple
+Glue Data Quality obligatorio,AWS Glue Data Quality,Rulesets RAW y TRUSTED,Bloques 02 y 04,Cumple
+Procesamiento obligatorio,Glue Spark,Limpieza y KPIs,Bloque 03,Cumple
+Consulta obligatoria,Athena,Validaciones y consultas de negocio,Bloque 05,Cumple
+Visualización obligatoria Batch,Power BI,"Dashboard con KPIs, filtros e insights",Bloque 06,Cumple
+Documentación con evidencias,Word/PDF + capturas,"Memoria PDF final con figuras, evidencias y ZIP consolidado limpio",Bloque 07,Cumple

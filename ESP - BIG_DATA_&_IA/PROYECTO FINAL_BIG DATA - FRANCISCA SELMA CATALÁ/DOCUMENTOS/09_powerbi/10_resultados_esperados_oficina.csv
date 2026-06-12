@@ -1,0 +1,9 @@
+oficina_id,oficina,provincia,comunidad_autonoma,expedientes_recibidos,expedientes_resueltos,documentacion_pendiente,incidencias_abiertas,tiempo_medio_espera_min,satisfaccion_media,meses_riesgo_alto,meses_riesgo_medio,meses_riesgo_bajo,tasa_resolucion_pct,ratio_incidencias_pct
+OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,26155,23576,1514,498,43.7,3.47,3,8,1,90.14,1.9
+OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,25567,23281,1284,684,44.1,3.79,5,5,2,91.06,2.68
+OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,25336,19327,1368,740,40.7,3.71,8,4,0,76.28,2.92
+OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,24542,21380,1655,598,27.6,3.84,5,5,2,87.12,2.44
+OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,24504,21260,1574,556,46.7,3.89,7,5,0,86.76,2.27
+OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,24110,21970,1377,571,45.3,3.74,7,4,1,91.12,2.37
+OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,21574,18696,1268,487,45.3,3.41,7,5,0,86.66,2.26
+OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,19531,17796,1472,625,44.1,3.77,8,2,2,91.12,3.2

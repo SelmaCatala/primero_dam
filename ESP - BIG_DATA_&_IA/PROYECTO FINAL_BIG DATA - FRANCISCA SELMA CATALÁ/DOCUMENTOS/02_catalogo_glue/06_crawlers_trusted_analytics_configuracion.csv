@@ -1,0 +1,5 @@
+orden,crawler_name,s3_target,database,tabla_recomendada_memoria,tabla_probable_si_glue_usa_nombre_carpeta,rol,frecuencia,motivo
+1,crawler_trusted_oficinas,s3://TU_BUCKET/trusted/oficinas/,proyecto_bigdata_oficinas,oficinas_empleo_trusted_2025,trusted_oficinas,LabRole,On demand,Catalogar la salida limpia generada por Glue Spark
+2,crawler_analytics_oficina,s3://TU_BUCKET/analytics/kpis_oficina/,proyecto_bigdata_oficinas,kpis_mensuales_por_oficina_2025,analytics_kpis_oficina,LabRole,On demand,Catalogar la capa analítica mensual por oficina
+3,crawler_analytics_provincia,s3://TU_BUCKET/analytics/kpis_provincia/,proyecto_bigdata_oficinas,kpis_mensuales_por_provincia_2025,analytics_kpis_provincia,LabRole,On demand,Catalogar la capa analítica mensual por provincia
+4,crawler_analytics_resumen,s3://TU_BUCKET/analytics/resumen/,proyecto_bigdata_oficinas,resumen_ejecutivo_2025,analytics_resumen,LabRole,On demand,Catalogar el resumen anual para KPIs ejecutivos

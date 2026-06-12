@@ -1,0 +1,13 @@
+mes,anio,numero_mes,trimestre,nombre_mes,periodo
+2025-01,2025,1,T1,enero,2025-T1
+2025-02,2025,2,T1,febrero,2025-T1
+2025-03,2025,3,T1,marzo,2025-T1
+2025-04,2025,4,T2,abril,2025-T2
+2025-05,2025,5,T2,mayo,2025-T2
+2025-06,2025,6,T2,junio,2025-T2
+2025-07,2025,7,T3,julio,2025-T3
+2025-08,2025,8,T3,agosto,2025-T3
+2025-09,2025,9,T3,septiembre,2025-T3
+2025-10,2025,10,T4,octubre,2025-T4
+2025-11,2025,11,T4,noviembre,2025-T4
+2025-12,2025,12,T4,diciembre,2025-T4

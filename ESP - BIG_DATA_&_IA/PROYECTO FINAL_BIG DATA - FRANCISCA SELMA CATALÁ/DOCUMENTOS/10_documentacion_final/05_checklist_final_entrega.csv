@@ -1,0 +1,11 @@
+orden,control,estado
+01,La memoria final no contiene marcadores PEGAR AQUÍ,Completado
+02,Las evidencias principales están integradas como figuras con explicación,Completado
+03,La ruta B - Batch se mantiene de forma consistente,Completado
+04,Los nombres reales de tablas usadas en Athena quedan documentados en memoria,Completado
+05,Se documentan fallos RAW y mejora hacia TRUSTED,Completado
+06,"El dashboard Power BI incluye KPIs, filtros, riesgo operativo, ranking y detalle",Completado
+07,Los datos del ZIP coinciden con los volúmenes declarados en la memoria,Completado
+08,"Se incluyen conclusiones, riesgos, gobernanza, coste y mejoras futuras",Completado
+09,Se entrega un único ZIP consolidado y limpio,Completado
+10,"Se conservan scripts, rulesets, SQL y datasets necesarios para revisión técnica",Completado
