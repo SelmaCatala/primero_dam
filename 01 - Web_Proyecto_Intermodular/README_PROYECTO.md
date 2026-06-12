@@ -1,4 +1,3 @@
-````markdown
 ## Estructura del proyecto
 > **Showcase_U**: carpeta con el contenido de todos los archivos del proyecto.
 ### Estructura interna
