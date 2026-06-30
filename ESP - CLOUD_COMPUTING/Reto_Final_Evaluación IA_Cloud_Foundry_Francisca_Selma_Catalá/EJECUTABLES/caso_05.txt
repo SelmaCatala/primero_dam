@@ -1,0 +1,16 @@
+Analiza el siguiente caso de oficina de empleo y devuelve la respuesta en el formato obligatorio de seis campos.
+
+Mes: 2025-01
+Oficina ID: OFI-MAD-001
+Oficina: Oficina Empleo Centro
+Provincia: Madrid
+Expedientes recibidos: 1908
+Expedientes resueltos: 1482
+Documentación pendiente: 91
+Incidencias abiertas: 65
+Tiempo medio de espera: 47.8 minutos
+Nivel de servicio: bajo
+Satisfacción media: 3.51 sobre 5
+Tasa de resolución: 77.67%
+Ratio de incidencias: 3.41%
+Riesgo operativo esperado: alto

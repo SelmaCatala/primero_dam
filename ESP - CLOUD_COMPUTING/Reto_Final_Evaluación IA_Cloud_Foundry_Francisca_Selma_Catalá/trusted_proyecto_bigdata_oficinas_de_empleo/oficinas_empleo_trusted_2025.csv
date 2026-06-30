@@ -1,0 +1,97 @@
+registro_id,mes,oficina_id,oficina,provincia,comunidad_autonoma,zona_operativa,canal_principal,prioridad_media_expedientes,expedientes_recibidos,expedientes_resueltos,documentacion_pendiente,incidencias_abiertas,tiempo_medio_espera_min,nivel_servicio,satisfaccion_media,tasa_resolucion_pct,ratio_incidencias_pct,riesgo_operativo
+2025-01_OFI-BCN-001,2025-01,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,online,baja,2218,1987,210,22,58.5,alto,4.75,89.59,0.99,alto
+2025-02_OFI-BCN-001,2025-02,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,telefono,media,895,837,170,19,57.3,bajo,2.97,93.52,2.12,alto
+2025-03_OFI-BCN-001,2025-03,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,telefono,baja,1200,1134,43,73,49.9,medio,3.98,94.5,6.08,alto
+2025-04_OFI-BCN-001,2025-04,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,telefono,media,1566,1386,180,72,26.2,medio,3.21,88.51,4.6,medio
+2025-05_OFI-BCN-001,2025-05,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,online,alta,2300,1867,45,54,64.0,bajo,4.68,81.17,2.35,alto
+2025-06_OFI-BCN-001,2025-06,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,presencial,alta,1503,1340,41,71,26.9,medio,3.29,89.16,4.72,medio
+2025-07_OFI-BCN-001,2025-07,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,telefono,baja,1451,1406,183,0,37.4,medio,3.82,96.9,0.0,bajo
+2025-08_OFI-BCN-001,2025-08,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,telefono,baja,2132,2132,128,69,64.8,bajo,2.99,100.0,3.24,alto
+2025-09_OFI-BCN-001,2025-09,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,telefono,media,1022,858,79,54,28.0,medio,3.3,83.95,5.28,alto
+2025-10_OFI-BCN-001,2025-10,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,presencial,alta,1422,1364,142,54,63.1,bajo,3.78,95.92,3.8,alto
+2025-11_OFI-BCN-001,2025-11,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,online,baja,1481,1147,168,74,19.2,bajo,3.55,77.45,5.0,alto
+2025-12_OFI-BCN-001,2025-12,OFI-BCN-001,Oficina Empleo Cataluña,Barcelona,Cataluña,Noreste,presencial,baja,2341,2338,83,63,33.4,medio,4.87,99.87,2.69,bajo
+2025-01_OFI-MAD-001,2025-01,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,telefono,alta,1908,1482,91,65,47.8,bajo,3.51,77.67,3.41,alto
+2025-02_OFI-MAD-001,2025-02,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,telefono,baja,1615,1326,209,44,62.7,bajo,4.27,82.11,2.72,alto
+2025-03_OFI-MAD-001,2025-03,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,online,baja,2619,2619,64,66,50.0,medio,4.58,100.0,2.52,medio
+2025-04_OFI-MAD-001,2025-04,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,telefono,alta,2991,2928,143,63,23.2,medio,2.5,97.89,2.11,medio
+2025-05_OFI-MAD-001,2025-05,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,online,baja,1439,1289,206,90,27.9,medio,3.01,89.58,6.25,alto
+2025-06_OFI-MAD-001,2025-06,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,telefono,media,835,807,84,12,54.1,medio,4.39,96.65,1.44,medio
+2025-07_OFI-MAD-001,2025-07,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,online,media,1940,1424,113,66,54.2,bajo,3.59,73.4,3.4,alto
+2025-08_OFI-MAD-001,2025-08,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,presencial,media,2252,1881,115,28,64.0,bajo,3.8,83.53,1.24,alto
+2025-09_OFI-MAD-001,2025-09,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,telefono,alta,2248,1862,178,23,58.6,bajo,3.8,82.83,1.02,alto
+2025-10_OFI-MAD-001,2025-10,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,online,media,2327,1898,176,17,66.7,bajo,4.46,81.56,0.73,alto
+2025-11_OFI-MAD-001,2025-11,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,online,media,1562,1320,131,51,37.2,medio,4.36,84.51,3.27,medio
+2025-12_OFI-MAD-001,2025-12,OFI-MAD-001,Oficina Empleo Centro,Madrid,Comunidad de Madrid,Centro,presencial,media,2768,2424,64,31,14.4,medio,4.4,87.57,1.12,medio
+2025-01_OFI-MAD-002,2025-01,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,online,alta,3375,2779,123,28,51.1,medio,2.54,82.34,0.83,medio
+2025-02_OFI-MAD-002,2025-02,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,presencial,baja,3064,2472,143,45,29.8,medio,2.81,80.68,1.47,medio
+2025-03_OFI-MAD-002,2025-03,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,presencial,media,2463,2389,111,93,31.1,medio,2.68,97.0,3.78,medio
+2025-04_OFI-MAD-002,2025-04,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,presencial,media,2169,1906,166,24,50.7,medio,2.84,87.87,1.11,medio
+2025-05_OFI-MAD-002,2025-05,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,telefono,media,1362,1357,46,31,59.7,bajo,3.66,99.63,2.28,alto
+2025-06_OFI-MAD-002,2025-06,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,online,media,1915,1722,51,91,52.3,medio,3.22,89.92,4.75,medio
+2025-07_OFI-MAD-002,2025-07,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,online,media,3028,2624,52,27,14.9,medio,4.77,86.66,0.89,medio
+2025-08_OFI-MAD-002,2025-08,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,presencial,media,2969,2832,124,34,66.2,bajo,3.66,95.39,1.15,alto
+2025-09_OFI-MAD-002,2025-09,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,presencial,baja,963,823,192,17,36.3,medio,3.83,85.46,1.77,medio
+2025-10_OFI-MAD-002,2025-10,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,presencial,alta,1734,1578,213,14,68.0,bajo,4.57,91.0,0.81,alto
+2025-11_OFI-MAD-002,2025-11,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,telefono,media,1234,1233,211,42,48.5,medio,3.99,99.92,3.4,medio
+2025-12_OFI-MAD-002,2025-12,OFI-MAD-002,Oficina Empleo Norte,Madrid,Comunidad de Madrid,Norte,presencial,alta,1879,1861,82,52,15.7,medio,3.09,99.04,2.77,bajo
+2025-01_OFI-MAD-003,2025-01,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,presencial,media,2317,2317,180,80,48.7,medio,2.42,100.0,3.45,medio
+2025-02_OFI-MAD-003,2025-02,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,telefono,media,2167,1825,155,92,12.8,medio,2.9,84.22,4.25,medio
+2025-03_OFI-MAD-003,2025-03,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,presencial,media,1772,1748,122,74,42.6,medio,3.44,98.65,4.18,medio
+2025-04_OFI-MAD-003,2025-04,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,online,media,3185,3120,30,61,18.8,medio,4.71,97.96,1.92,bajo
+2025-05_OFI-MAD-003,2025-05,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,presencial,baja,1252,990,67,23,46.3,medio,4.32,79.07,1.84,alto
+2025-06_OFI-MAD-003,2025-06,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,telefono,media,1948,1909,77,90,27.0,medio,5.0,98.0,4.62,medio
+2025-07_OFI-MAD-003,2025-07,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,online,alta,2309,2275,88,8,49.0,medio,4.76,98.53,0.35,medio
+2025-08_OFI-MAD-003,2025-08,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,presencial,media,1423,1068,119,16,69.5,bajo,4.52,75.05,1.12,alto
+2025-09_OFI-MAD-003,2025-09,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,presencial,baja,3171,3016,111,66,36.0,medio,3.59,95.11,2.08,bajo
+2025-10_OFI-MAD-003,2025-10,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,presencial,media,2087,1746,84,22,71.2,bajo,2.78,83.66,1.05,alto
+2025-11_OFI-MAD-003,2025-11,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,online,baja,1246,1177,185,92,66.6,bajo,3.14,94.46,7.38,alto
+2025-12_OFI-MAD-003,2025-12,OFI-MAD-003,Oficina Empleo Sur,Madrid,Comunidad de Madrid,Sur,telefono,media,2690,2090,66,60,41.1,bajo,3.95,77.7,2.23,alto
+2025-01_OFI-SEV-001,2025-01,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,telefono,media,3637,3253,28,94,17.9,medio,4.11,89.44,2.58,medio
+2025-02_OFI-SEV-001,2025-02,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,telefono,media,2285,0,24,94,26.2,medio,3.04,0.0,4.11,alto
+2025-03_OFI-SEV-001,2025-03,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,telefono,media,801,701,73,91,28.7,medio,4.67,87.52,11.36,alto
+2025-04_OFI-SEV-001,2025-04,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,telefono,media,1427,1064,219,40,65.9,bajo,3.92,74.56,2.8,alto
+2025-05_OFI-SEV-001,2025-05,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,online,media,927,774,73,62,67.8,bajo,2.58,83.5,6.69,alto
+2025-06_OFI-SEV-001,2025-06,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,presencial,alta,2774,2213,136,66,62.2,bajo,4.14,79.78,2.38,alto
+2025-07_OFI-SEV-001,2025-07,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,online,media,2308,1931,54,91,16.3,medio,3.2,83.67,3.94,medio
+2025-08_OFI-SEV-001,2025-08,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,online,media,1361,1166,94,22,70.1,bajo,4.12,85.67,1.62,alto
+2025-09_OFI-SEV-001,2025-09,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,presencial,baja,2260,1945,136,58,47.1,medio,4.65,86.06,2.57,medio
+2025-10_OFI-SEV-001,2025-10,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,telefono,media,1739,1710,164,89,39.0,medio,2.72,98.33,5.12,alto
+2025-11_OFI-SEV-001,2025-11,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,presencial,baja,2942,2483,163,12,22.8,medio,4.14,84.4,0.41,medio
+2025-12_OFI-SEV-001,2025-12,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,Andalucía,Oeste,presencial,baja,2875,2087,204,21,24.7,bajo,3.22,72.59,0.73,alto
+2025-01_OFI-SEV-002,2025-01,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,online,media,1811,1323,100,40,22.9,bajo,4.29,73.05,2.21,alto
+2025-02_OFI-SEV-002,2025-02,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,presencial,media,1838,1386,143,81,24.1,bajo,4.64,75.41,4.41,alto
+2025-03_OFI-SEV-002,2025-03,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,telefono,media,1876,1635,179,74,26.5,medio,4.08,87.15,3.94,medio
+2025-04_OFI-SEV-002,2025-04,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,online,media,2296,2125,112,22,21.6,alto,3.77,92.55,0.96,bajo
+2025-05_OFI-SEV-002,2025-05,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,presencial,media,2486,1897,174,6,31.4,bajo,4.52,76.31,0.24,alto
+2025-06_OFI-SEV-002,2025-06,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,presencial,baja,1433,1101,53,52,23.0,bajo,4.74,76.83,3.63,alto
+2025-07_OFI-SEV-002,2025-07,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,telefono,baja,1156,925,154,72,53.6,medio,3.27,80.02,6.23,alto
+2025-08_OFI-SEV-002,2025-08,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,online,alta,2224,1895,187,46,35.8,medio,4.63,85.21,2.07,medio
+2025-09_OFI-SEV-002,2025-09,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,online,alta,2475,2475,219,80,18.4,medio,3.24,100.0,3.23,medio
+2025-10_OFI-SEV-002,2025-10,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,online,media,2609,2588,51,38,33.5,medio,2.68,99.2,1.46,medio
+2025-11_OFI-SEV-002,2025-11,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,presencial,media,1466,1358,197,65,23.5,medio,2.5,92.63,4.43,medio
+2025-12_OFI-SEV-002,2025-12,OFI-SEV-002,Oficina Empleo Andalucía,Sevilla,Andalucía,Sur,online,media,2872,2672,86,22,17.2,alto,3.74,93.04,0.77,bajo
+2025-01_OFI-VAL-001,2025-01,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,online,alta,2164,1826,207,84,26.0,medio,2.63,84.38,3.88,medio
+2025-02_OFI-VAL-001,2025-02,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,online,alta,1178,875,60,32,63.8,bajo,3.96,74.28,2.72,alto
+2025-03_OFI-VAL-001,2025-03,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,presencial,alta,2057,1696,78,36,43.1,medio,4.16,82.45,1.75,medio
+2025-04_OFI-VAL-001,2025-04,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,online,baja,1062,981,109,64,27.6,medio,4.89,92.37,6.03,alto
+2025-05_OFI-VAL-001,2025-05,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,presencial,media,3005,3005,136,10,34.2,alto,2.44,100.0,0.33,medio
+2025-06_OFI-VAL-001,2025-06,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,online,media,3111,2982,127,9,39.4,medio,4.51,95.85,0.29,bajo
+2025-07_OFI-VAL-001,2025-07,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,presencial,media,1610,1476,103,28,52.6,medio,3.83,91.68,1.74,medio
+2025-08_OFI-VAL-001,2025-08,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,presencial,media,1441,1339,71,87,41.6,medio,2.61,92.92,6.04,alto
+2025-09_OFI-VAL-001,2025-09,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,telefono,baja,1992,1703,77,48,70.7,bajo,3.79,85.49,2.41,alto
+2025-10_OFI-VAL-001,2025-10,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,telefono,alta,2346,2346,46,53,62.3,bajo,3.57,100.0,2.26,alto
+2025-11_OFI-VAL-001,2025-11,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,presencial,baja,2980,2881,157,60,62.5,bajo,4.32,96.68,2.01,alto
+2025-12_OFI-VAL-001,2025-12,OFI-VAL-001,Oficina Empleo Valencia,Valencia,Comunidad Valenciana,Este,telefono,media,1164,860,206,60,20.0,bajo,4.12,73.88,5.15,alto
+2025-01_OFI-VAL-002,2025-01,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,online,baja,2377,2147,150,55,52.8,medio,3.53,90.32,2.31,medio
+2025-02_OFI-VAL-002,2025-02,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,presencial,media,1302,1062,56,48,50.3,medio,4.62,81.57,3.69,medio
+2025-03_OFI-VAL-002,2025-03,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,presencial,media,1363,1085,58,6,45.3,medio,2.77,79.6,0.44,alto
+2025-04_OFI-VAL-002,2025-04,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,online,media,1983,1816,28,23,55.6,bajo,4.64,91.58,1.16,alto
+2025-05_OFI-VAL-002,2025-05,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,presencial,media,980,879,207,67,30.3,medio,2.88,89.69,6.84,alto
+2025-06_OFI-VAL-002,2025-06,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,telefono,media,1068,1068,125,34,14.5,alto,3.4,100.0,3.18,medio
+2025-07_OFI-VAL-002,2025-07,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,presencial,alta,2314,2115,84,37,51.1,medio,2.92,91.4,1.6,medio
+2025-08_OFI-VAL-002,2025-08,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,online,baja,2177,2075,170,20,59.4,bajo,2.63,95.31,0.92,alto
+2025-09_OFI-VAL-002,2025-09,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,presencial,alta,1152,1152,183,23,70.2,bajo,3.71,100.0,2.0,alto
+2025-10_OFI-VAL-002,2025-10,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,telefono,media,1384,1020,25,85,44.1,bajo,4.27,73.7,6.14,alto
+2025-11_OFI-VAL-002,2025-11,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,presencial,media,2900,2400,145,47,26.4,medio,2.59,82.76,1.62,medio
+2025-12_OFI-VAL-002,2025-12,OFI-VAL-002,Oficina Empleo Levante,Valencia,Comunidad Valenciana,Levante,presencial,media,2574,1877,37,42,44.0,bajo,3.01,72.92,1.63,alto

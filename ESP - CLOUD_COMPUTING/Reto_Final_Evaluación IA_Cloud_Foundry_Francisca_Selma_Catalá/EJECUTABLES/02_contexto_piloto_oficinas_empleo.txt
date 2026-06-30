@@ -1,0 +1,7 @@
+CONTEXTO OPERATIVO DEL PROYECTO PILOTO - RED DE OFICINAS DE EMPLEO
+
+Este proyecto piloto establece las bases para la modernización y digitalización del primer nivel de atención al ciudadano en la Red de Oficinas de Empleo, mediante el despliegue de tecnologías de Inteligencia Artificial Generativa bajo el ecosistema Microsoft Azure.
+
+El objetivo principal del proyecto piloto es automatizar el triaje inicial de las solicitudes entrantes y optimizar los tiempos de atención presencial y telemática en las Oficinas de Empleo. A través de este sistema, los expedientes no estructurados aportados por los usuarios se procesan de forma inmediata, permitiendo una clasificación sistemática y un enrutamiento inteligente hacia las unidades administrativas competentes.
+
+El piloto está diseñado para mitigar la saturación operativa actual de las oficinas de empleo, estandarizar los criterios de urgencia en la atención pública y garantizar que los recursos humanos de la Administración se enfoquen en tareas de alto valor, como la orientación laboral personalizada y la inserción laboral activa.

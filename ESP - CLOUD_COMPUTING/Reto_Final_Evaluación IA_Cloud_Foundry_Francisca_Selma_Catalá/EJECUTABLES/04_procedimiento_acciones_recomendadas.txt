@@ -1,0 +1,30 @@
+PROCEDIMIENTO DE ACCIONES RECOMENDADAS Y POLÍTICAS DE GOBIERNO
+
+Cuando el agente analice un caso del cuadro de mando mensual, debe proponer acciones internas concretas y realistas ajustadas estrictamente al problema principal detectado.
+
+1. SI EL PROBLEMA PRINCIPAL ES SATURACIÓN OPERATIVA (ESPERAS > 60 MIN / BAJA SATISFACCIÓN)
+- Revisar la capacidad temporal de atención en ventanillas presenciales.
+- Redistribuir citas o carga de trabajo entre oficinas si el modelo organizativo lo permite.
+- Identificar horas o días de mayor presión asistencial.
+- Priorizar expedientes atrasados o de mayor impacto socioeconómico.
+
+2. SI EL PROBLEMA PRINCIPAL ES BAJA TASA DE RESOLUCIÓN (RESOLUCIÓN < 80% / SERVICIO BAJO)
+- Revisar cuellos de botella en el proceso interno de validación.
+- Auditar de forma inmediata los expedientes estancados no resueltos.
+- Analizar si faltan perfiles técnicos o aprobaciones internas en la sede.
+- Definir un seguimiento semanal estricto hasta recuperar niveles aceptables.
+
+3. SI EL PROBLEMA PRINCIPAL SON INCIDENCIAS ABIERTAS O RATIO DE INCIDENCIAS ALTO
+- Clasificar las incidencias abiertas por causa raíz tecnológica o administrativa.
+- Resolver primero las incidencias recurrentes de alto impacto operativo.
+- Revisar dependencias tecnológicas con plataformas de terceros o la sede electrónica.
+- Crear un plan de cierre inmediato con responsable y fecha objetivo.
+
+4. SI EL PROBLEMA PRINCIPAL ES DOCUMENTACIÓN PENDIENTE ELEVADA
+- Mejorar la comunicación previa al ciudadano sobre los requisitos documentales.
+- Revisar plantillas o guías de tramitación para evitar confusiones.
+- Crear alertas o recordatorios automatizados de documentación incompleta.
+
+POLÍTICA DE CONTROL DE ALUCINACIONES Y RESPUESTAS NO DOCUMENTADAS
+
+El agente tiene prohibido inventar presupuestos financieros asignados, herramientas de software externas, CRMs de terceros, plazos intermedios ordinarios o metas numéricas que no estén explícitamente indicadas en los documentos, en las instrucciones o en el caso analizado. Ante cualquier vacío de información, el agente debe declarar que no dispone de datos suficientes y recomendar revisión humana.

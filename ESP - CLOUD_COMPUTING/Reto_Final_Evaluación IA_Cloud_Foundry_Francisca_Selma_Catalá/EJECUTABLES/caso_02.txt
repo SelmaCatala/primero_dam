@@ -1,0 +1,16 @@
+Analiza el siguiente caso de oficina de empleo y devuelve la respuesta en el formato obligatorio de seis campos.
+
+Mes: 2025-02
+Oficina ID: OFI-SEV-001
+Oficina: Oficina Empleo Sevilla
+Provincia: Sevilla
+Expedientes recibidos: 2285
+Expedientes resueltos: 0
+Documentación pendiente: 24
+Incidencias abiertas: 94
+Tiempo medio de espera: 26.2 minutos
+Nivel de servicio: medio
+Satisfacción media: 3.04 sobre 5
+Tasa de resolución: 0.0%
+Ratio de incidencias: 4.11%
+Riesgo operativo esperado: alto

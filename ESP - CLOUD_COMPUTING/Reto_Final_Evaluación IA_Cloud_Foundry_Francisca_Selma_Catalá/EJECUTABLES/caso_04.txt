@@ -1,0 +1,16 @@
+Analiza el siguiente caso de oficina de empleo y devuelve la respuesta en el formato obligatorio de seis campos.
+
+Mes: 2025-06
+Oficina ID: OFI-VAL-001
+Oficina: Oficina Empleo Valencia
+Provincia: Valencia
+Expedientes recibidos: 3111
+Expedientes resueltos: 2982
+Documentación pendiente: 127
+Incidencias abiertas: 9
+Tiempo medio de espera: 39.4 minutos
+Nivel de servicio: medio
+Satisfacción media: 4.51 sobre 5
+Tasa de resolución: 95.85%
+Ratio de incidencias: 0.29%
+Riesgo operativo esperado: bajo

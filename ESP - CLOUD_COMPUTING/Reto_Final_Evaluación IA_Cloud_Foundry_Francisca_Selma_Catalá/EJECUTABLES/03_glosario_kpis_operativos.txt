@@ -1,0 +1,22 @@
+GLOSARIO DE KEY PERFORMANCE INDICATORS (KPIS) OPERATIVOS DEL PILOTO
+
+Este documento define los indicadores clave de rendimiento (KPIs) utilizados para auditar y evaluar la eficiencia del sistema de IA generativa implementado en la red de oficinas de empleo.
+
+1. TASA DE TRIAJE AUTOMATIZADO
+- Definición: Porcentaje de casos y solicitudes de ciudadanos que son procesados, categorizados y priorizados por la IA de forma correcta sin requerir intervención o corrección manual previa por parte del personal de administración.
+- Metodología de cálculo: (Casos triados correctamente por la IA / Total de casos introducidos en el sistema) * 100.
+
+2. TIEMPO MEDIO DE RESOLUCIÓN
+- Definición: Intervalo de tiempo promedio empleado por la oficina de empleo para gestionar una solicitud desde su recepción inicial y triaje automático hasta la ejecución de la acción recomendada por el sistema.
+- Meta del KPI: Reducir el tiempo de espera en la atención inicial a menos de 5 minutos de media por expediente evaluado.
+
+3. TASA DE RESOLUCIÓN
+Definición: porcentaje de expedientes resueltos respecto al total de expedientes recibidos.
+Metodología de cálculo: (Expedientes resueltos / Expedientes recibidos) * 100.
+
+4. RATIO DE INCIDENCIAS
+Definición: porcentaje de incidencias abiertas respecto al volumen de expedientes recibidos.
+Metodología de cálculo: (Incidencias abiertas / Expedientes recibidos) * 100.
+
+Umbral operativo: se considera anómalo cuando supera el 10%.
+En un entorno productivo, estos datos podrían extraerse de logs transaccionales y servicios de observabilidad como Azure Monitor o Application Insights.

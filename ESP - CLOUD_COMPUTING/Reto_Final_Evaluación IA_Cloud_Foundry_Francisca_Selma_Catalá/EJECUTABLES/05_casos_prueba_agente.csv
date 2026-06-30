@@ -1,0 +1,6 @@
+mes,oficina_id,oficina,provincia,expedientes_recibidos,expedientes_resueltos,documentacion_pendiente,incidencias_abiertas,tiempo_medio_espera_min,nivel_servicio,satisfaccion_media,tasa_resolucion_pct,ratio_incidencias_pct,riesgo_operativo,prioridad_esperada
+2025-05,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,927,774,73,62,67.8,bajo,2.58,83.5,6.69,alto,ALTA
+2025-02,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,2285,0,24,94,26.2,medio,3.04,0.0,4.11,alto,ALTA
+2025-03,OFI-SEV-001,Oficina Empleo Sevilla,Sevilla,801,701,73,91,28.7,medio,4.67,87.52,11.36,alto,ALTA
+2025-06,OFI-VAL-001,Oficina Empleo Valencia,Valencia,3111,2982,127,9,39.4,medio,4.51,95.85,0.29,bajo,BAJA
+2025-01,OFI-MAD-001,Oficina Empleo Centro,Madrid,1908,1482,91,65,47.8,bajo,3.51,77.67,3.41,alto,ALTA
