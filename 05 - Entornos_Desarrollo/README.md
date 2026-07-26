@@ -25,4 +25,31 @@
 - **Python y Streamlit**
 - Con Widgets y elementos multimedia.
 
+## Aplicación de gestión de incidencias
+
+- **Contenido:** proyecto completo en Python con documentación y pruebas.
+- **Tecnologías:** Python y SQLite.
+- **Objetivo:** gestionar técnicos e incidencias mediante una aplicación organizada por capas.
+- **Arquitectura del proyecto:**
+  - modelos;
+  - base de datos;
+  - repositorios;
+  - servicio;
+  - aplicación.
+- **Funcionalidades:**
+  - registrar y consultar técnicos;
+  - crear y consultar incidencias;
+  - asignar incidencias a técnicos;
+  - cerrar incidencias;
+  - buscar incidencias por identificador;
+  - consultar incidencias abiertas.
+- **Incluye:**
+  - demostración automática;
+  - menú interactivo de consola;
+  - validaciones y reglas de negocio;
+  - pruebas manuales;
+  - documentación de uso en `README.md`.
+
+**Carpeta del proyecto:** [APP_GESTION_INCIDENCIAS](./APP_GESTION_INCIDENCIAS)
+
 </small>
