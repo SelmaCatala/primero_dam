@@ -263,7 +263,7 @@ Añadir menú interactivo de consola
 
 Proyecto académico desarrollado para practicar:
 
-- Python;
+- Python,
 - programación orientada a objetos;
 - SQLite;
 - arquitectura por capas;
