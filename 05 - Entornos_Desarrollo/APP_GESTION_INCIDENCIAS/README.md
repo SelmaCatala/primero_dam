@@ -1,6 +1,6 @@
 # Gestión de incidencias en Python
 
-Proyecto práctico de **Entornos de Desarrollo (1.º DAM)** para gestionar técnicos e incidencias internas mediante Python, SQLite y una arquitectura por capas.
+Proyecto práctico de **Entornos de Desarrollo (1.º DAM)** para gestionar técnicos e incidencias internas mediante Python, SQLite, Streamlit y una arquitectura por capas.
 
 ## Funcionalidades
 
@@ -14,21 +14,23 @@ La aplicación permite:
 - buscar una incidencia por identificador;
 - asignar una incidencia a un técnico;
 - cerrar una incidencia;
+- utilizar una demostración automática;
 - utilizar un menú interactivo de consola;
+- utilizar una interfaz web con Streamlit;
 - comprobar reglas de negocio mediante pruebas manuales.
 
 ## Arquitectura
 
 ```text
-aplicacion.py / menu.py
-          ↓
-     servicio.py
-          ↓
-    repositorio.py
-          ↓
-        db.py
-          ↓
-        SQLite
+aplicacion.py / menu.py / interfaz_streamlit.py
+                       ↓
+                  servicio.py
+                       ↓
+                 repositorio.py
+                       ↓
+                     db.py
+                       ↓
+                     SQLite
 ```
 
 `modelos.py` define los objetos utilizados por todas las capas.
@@ -44,7 +46,9 @@ PythonProject3/
 ├── servicio.py
 ├── aplicacion.py
 ├── menu.py
+├── interfaz_streamlit.py
 ├── pruebas_reglas.py
+├── requerimientos.txt
 ├── .gitignore
 └── README.md
 ```
@@ -100,9 +104,36 @@ Permite:
 - cerrar incidencias;
 - salir de la aplicación.
 
+### `interfaz_streamlit.py`
+
+Proporciona una interfaz web creada con Streamlit.
+
+Permite:
+
+- consultar indicadores generales;
+- registrar técnicos mediante formularios;
+- crear incidencias;
+- mostrar técnicos en una tabla;
+- mostrar todas las incidencias;
+- filtrar las incidencias abiertas;
+- asignar incidencias a técnicos;
+- cerrar incidencias;
+- mostrar mensajes de confirmación;
+- mostrar los errores generados por las reglas de negocio.
+
 ### `pruebas_reglas.py`
 
 Comprueba que se bloquean operaciones incorrectas.
+
+### `requerimientos.txt`
+
+Contiene las dependencias externas necesarias para ejecutar la interfaz web.
+
+Su contenido actual es:
+
+```text
+streamlit
+```
 
 ## Reglas de negocio
 
@@ -134,8 +165,25 @@ CERRADA
 - Python 3.12 o compatible.
 - PyCharm u otro editor de Python.
 - Git, si se desea utilizar control de versiones.
+- Streamlit, para ejecutar la interfaz web.
 
 No es necesario instalar XAMPP, MySQL ni phpMyAdmin, porque el proyecto utiliza SQLite.
+
+## Instalación de dependencias
+
+Antes de ejecutar la interfaz web, se deben instalar las dependencias indicadas en `requerimientos.txt`.
+
+Desde la terminal:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+También puede instalarse Streamlit directamente:
+
+```bash
+python -m pip install streamlit
+```
 
 ## Cómo ejecutar la aplicación automática
 
@@ -189,6 +237,40 @@ El menú permite elegir entre las siguientes opciones:
 0. Salir
 ```
 
+## Cómo ejecutar la interfaz web con Streamlit
+
+Desde la terminal de PyCharm:
+
+```bash
+python -m streamlit run interfaz_streamlit.py
+```
+
+Streamlit iniciará un servidor local y abrirá la aplicación en el navegador.
+
+La dirección habitual es:
+
+```text
+http://localhost:8501
+```
+
+Para detener el servidor, debe pulsarse:
+
+```text
+Ctrl + C
+```
+
+La interfaz web incluye las siguientes secciones:
+
+```text
+Inicio
+Registrar técnico
+Crear incidencia
+Ver técnicos
+Ver incidencias
+Asignar incidencia
+Cerrar incidencia
+```
+
 ## Cómo ejecutar las pruebas
 
 Desde PyCharm:
@@ -222,6 +304,8 @@ gestion_incidencias.db
 
 Este archivo no se incluye en Git porque se genera durante la ejecución.
 
+La interfaz automática, el menú de consola y la interfaz de Streamlit utilizan la misma base de datos.
+
 ## Archivos ignorados por Git
 
 El archivo `.gitignore` excluye:
@@ -232,6 +316,23 @@ __pycache__/
 .idea/
 gestion_incidencias.db
 ```
+
+## Seguridad y limitaciones
+
+Esta aplicación es un proyecto académico diseñado para ejecutarse localmente.
+
+Incluye validaciones de reglas de negocio y consultas a una base de datos SQLite. Sin embargo, no incorpora:
+
+- autenticación de usuarios;
+- contraseñas;
+- permisos por roles;
+- cifrado de la base de datos;
+- auditoría de operaciones;
+- protección avanzada de datos personales.
+
+El archivo `gestion_incidencias.db` se excluye del repositorio mediante `.gitignore` para evitar publicar los datos generados durante las pruebas.
+
+Para utilizar la aplicación en un entorno real sería necesario añadir autenticación, control de permisos, validaciones más completas, registro de actividad y medidas adicionales de protección de datos.
 
 ## Historial inicial de Git
 
@@ -259,6 +360,18 @@ Cuarto commit:
 Añadir menú interactivo de consola
 ```
 
+Quinto commit:
+
+```text
+Actualizar README con el menú interactivo
+```
+
+Sexto commit:
+
+```text
+Añadir interfaz web con Streamlit
+```
+
 ## Autoría
 
 Proyecto académico desarrollado para practicar:
@@ -268,6 +381,9 @@ Proyecto académico desarrollado para practicar:
 - SQLite;
 - arquitectura por capas;
 - patrón servicio-repositorio;
-- pruebas de reglas de negocio;
+- reglas de negocio;
+- pruebas manuales;
 - interfaces de consola;
+- desarrollo de interfaces web con Streamlit;
+- gestión de dependencias;
 - Git y GitHub Desktop.
